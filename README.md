@@ -2,13 +2,11 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
-
-[picture of the solution in action, if possible]
+Demo project for the aMS Paris 2023 event, related to usage of Teams JS SDK latest version for M365 apps.
 
 ## Used SharePoint Framework Version
 
-![version](https://img.shields.io/badge/version-1.13-green.svg)
+![version](https://img.shields.io/badge/version-1.17.2-green.svg)
 
 ## Applies to
 
@@ -25,14 +23,13 @@ Short summary on functionality and used technologies.
 
 | Solution    | Author(s)                                               |
 | ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+| amsparis-m365-spfx | Michaël Maillot (onepoint) |
 
 ## Version history
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
+| 1.0     | July 3, 2023 | Initial release |
 
 ## Disclaimer
 
@@ -46,21 +43,15 @@ Short summary on functionality and used technologies.
 - Ensure that you are at the solution folder
 - in the command-line run:
   - **npm install**
-  - **gulp serve**
+  - **gulp serve** or **npm run serve** (spfx-fast-serve required)
 
 > Include any additional steps as needed.
 
 ## Features
 
-Description of the extension that expands upon high-level summary above.
+Description of the extension that expands upon high-level summary above. Additional links [here](https://github.com/michaelmaillot/Events/tree/main/aMSParis2023).
 
-This extension illustrates the following concepts:
-
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
+This extension illustrates some basic concepts around usage of Teams JS SDK latest version in M365 context (Teams / SharePoint / Outlook / M365 Portal)
 
 > Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
 
