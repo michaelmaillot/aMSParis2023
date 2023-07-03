@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-m-365-client-side-solution",
+    "id": "d2076ea5-88d2-4680-be84-6f882e7724ba",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "hello-m365 description"
+      },
+      "longDescription": {
+        "default": "hello-m365 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hello-m-365 Feature",
+        "description": "The feature that activates elements of the hello-m-365 solution.",
+        "id": "7f5a1034-e3c9-43fe-a5d4-9764ee278daa",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-m-365.sppkg"
+  }
+}

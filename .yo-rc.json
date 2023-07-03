@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.15.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.0",
+    "libraryName": "hello-m-365",
+    "libraryId": "d2076ea5-88d2-4680-be84-6f882e7724ba",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "hello-m365",
+    "solutionShortDescription": "hello-m365 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

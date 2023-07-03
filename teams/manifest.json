@@ -1,0 +1,61 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "packageName": "HelloM365",
+    "id": "9f60a312-e03d-41d1-8029-60a09ecdc4d1",
+    "version": "1.0.0.0",
+    "developer": {
+      "name": "SPFx + Teams Dev",
+      "websiteUrl": "https://products.office.com/en-us/sharepoint/collaboration",
+      "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "termsOfUseUrl": "https://www.microsoft.com/en-us/servicesagreement"
+    },
+    "name": {
+      "short": "HelloM365",
+      "full": "HelloM365"
+    },
+    "description": {
+      "short": "HelloM365",
+      "full": "HelloM365"
+    },
+    "icons": {
+      "outline": "9f60a312-e03d-41d1-8029-60a09ecdc4d1_outline.png",
+      "color": "9f60a312-e03d-41d1-8029-60a09ecdc4d1_color.png"
+    },
+    "accentColor": "#004578",
+      "configurableTabs": [
+      {
+        "configurationUrl": "https://{teamSiteDomain}{teamSitePath}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest={teamSitePath}/_layouts/15/teamshostedapp.aspx%3FopenPropertyPane=true%26teams%26componentId=9f60a312-e03d-41d1-8029-60a09ecdc4d1%26forceLocale={locale}",
+        "canUpdateConfiguration": true,
+        "scopes": [
+          "team"
+        ]
+      }
+    ],
+      "staticTabs": [
+      {
+        "entityId": "9f60a312-e03d-41d1-8029-60a09ecdc4d1",
+        "name": "HelloM365",
+        "contentUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26personal%26componentId=9f60a312-e03d-41d1-8029-60a09ecdc4d1%26forceLocale={locale}",
+        "websiteUrl": "https://products.office.com/en-us/sharepoint/collaboration",
+        "scopes": ["personal"]
+      }
+    ],
+    "devicePermissions": [
+      "geolocation"
+    ],
+    "validDomains": [
+      "*.login.microsoftonline.com",
+      "*.sharepoint.com",
+      "*.sharepoint-df.com",
+      "spoppe-a.akamaihd.net",
+      "spoprod-a.akamaihd.net",
+      "resourceseng.blob.core.windows.net",
+      "msft.spoppe.com"
+    ],
+    "webApplicationInfo": {
+      "resource": "https://{teamSiteDomain}",
+      "id": "00000003-0000-0ff1-ce00-000000000000"
+    }
+  }
+  
